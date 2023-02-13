@@ -1,0 +1,13 @@
+/* <-================ ESTILO PADRÃO DA PÁGINA ============================-> */
+.oculta_item{
+    display: none;
+}
+
+.alinhar_opcao_esquerda{
+    float: left;
+}
+
+.tamanho_icone_padrao{
+    font-size: 2rem;
+}
+/* <-================ FINALIZANDO ESTILO PADRÃO DA PÁGINA ============================-> */

@@ -1,0 +1,82 @@
+/* <-=================== ESTILIZANDO IMAGEM MENU PRINCIPAL ====================-> */
+.img__logo_cadastro {
+    width: 50%;
+}
+
+.img__logo_login {
+    width: 100%;
+}
+
+.login_paciente {
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link_login {
+    text-decoration: none;
+}
+
+/* <-=================== ESTILIZANDO CARD DA LISTAGEM DE COSULTAR ====================-> */
+.cartao_cabecalho {
+    background: none;
+    border: transparent;
+}
+
+/* <-=================== ESTILIZANDO CARD DE AGENDAMENTO ====================-> */
+.imagem_logo_card {
+    width: 100%;
+    height: 100%;
+}
+
+.cursor_marcacao{
+    cursor: pointer;
+}
+
+.card_categoria{
+    transition: all 0.5s;
+    /* cursor: pointer; */
+}
+
+.card_categoria:hover{
+    _webkit-filter: drop-shadow(15px 10px 5px #ccc);
+    filter: drop-shadow(15px 10px 5px #ccc);
+}
+
+.rolagem_tabela{
+    height:65vh; 
+    overflow-y:scroll;
+}
+
+/* Tamanho padrão para ícones usados no menu inicial do usuário */
+.tamanho_icone{
+    font-size: 2rem;
+}
+
+/* Remover todo estilo de links */
+.remove_decoracao_link{
+    text-decoration: none;
+}
+
+/* Animação para serviços disponíveis */
+.card_marcacao{
+    transition: all 0.5s;
+}
+
+.card_marcacao:hover{
+    transform: scale(1.1);
+}
+
+/* Fonte de tamanho padrão para LABELS */
+.label_fonte{
+    font-size: 14pt;
+}
+
+.link_hover:hover{
+    transform: scale(1.1);
+}
+
+/* Ícones flutuantes */
+.icones_flutuante{
+    float: left;
+}
